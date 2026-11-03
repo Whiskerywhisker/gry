@@ -1,0 +1,59 @@
+body {
+    background-color: #e8f0ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.gra {
+    background-color: white;
+    width: 350px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #315ca8;
+}
+
+h2 {
+    font-size: 35px;
+    color: #222;
+}
+
+input {
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4779d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #315ca8;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+#informacja {
+    font-weight: bold;
+    min-height: 20px;
+}
+
+#punkty {
+    font-size: 20px;
+    font-weight: bold;
+}
