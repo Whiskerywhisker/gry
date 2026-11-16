@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+<h2>Wyszukiwanie gier</h2>
+
+<input type="text" id="szukaj" placeholder="Wpisz tytuł gry..." oninput="wyswietlGry()">
+
+<select id="filtrStatusu" onchange="wyswietlGry()">
+    <option value="Wszystkie">Wszystkie statusy</option>
+    <option value="Do ogrania">Do ogrania</option>
+    <option value="W trakcie">W trakcie</option>
+    <option value="Ukończona">Ukończona</option>
+</select>
+
+<button onclick="pokazWszystkie()">Pokaż wszystkie</button>
+
+
+
+<h2>Podsumowanie kolekcji</h2>
+
+<div id="podsumowanie"></div>
+
+
+
+
+<h2>Moja kolekcja</h2>
+
+<div id="collection"></div>
+
+    <h2>Dodaj nową grę</h2>
+
+    <form id="gameForm">
+        <input type="text" id="tytul" placeholder="Tytuł gry" required>
+        <input type="text" id="platforma" placeholder="Platforma" required>
+        <input type="text" id="gatunek" placeholder="Gatunek" required>
+        <input type="number" id="rok" placeholder="Rok wydania" required>
+
+        <select id="status">
+            <option value="Do ogrania">Do ogrania</option>
+            <option value="W trakcie">W trakcie</option>
+            <option value="Ukończona">Ukończona</option>
+        </select>
+
+        <button type="submit">Dodaj grę</button>
+    </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
