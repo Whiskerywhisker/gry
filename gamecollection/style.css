@@ -1,0 +1,57 @@
+* {
+    border: 2px solid;
+}
+
+body {
+    background-color: rgb(165, 135, 174);
+    color: rgb(95, 74, 101);
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#filtrStatusu {
+    background-color: rgb(132, 102, 142);
+    border: solid 3px rgb(95, 74, 101);
+    color: rgb(214, 189, 221);
+    border-radius: 5px;
+}
+
+#filtrStatusu:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(179, 152, 187);
+    border: solid 3px rgb(146, 117, 155);
+}
+
+button {
+    background-color: rgb(231, 217, 171);
+    border: solid 3px rgb(203, 187, 133);
+    color: rgb(112, 90, 61);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+div {
+    background-color: rgb(222, 206, 152);
+    color: rgb(112, 90, 61);
+}
+
+#collection button {
+    background-color: rgb(132, 102, 142);
+    border: solid 3px rgb(95, 74, 101);
+    color: rgb(214, 189, 221);
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+#collection div {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.wysrodkoj {
+    text-align: center;
+}
