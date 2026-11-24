@@ -55,10 +55,14 @@ function wyswietlGry() {
     if (pasujeTytul && pasujeStatus) {
 
       let div = "<div>"
+      + "<div>"
       + game.tytul
       + " (" + game.rok + ", " + game.platforma + ", " + game.gatunek + ", " + game.status + ")  "
+      + "</div>"
+      + "<div>"
       + '<button onclick="zmienStatus(' + i + ')">Zmień</button>'
       + '<button onclick="usunGre(' + i + ')">Usuń</button>'
+      + "</div>"
       + "</div>";
 
       collection.innerHTML = collection.innerHTML + div;
@@ -126,10 +130,10 @@ function podsumujKolekcje() {
   }
 
   document.getElementById("podsumowanie").innerHTML =
-    "<p>Wszystkie gry: " + wszystkie + "</p>" +
-    "<p>Do ogrania: " + doOgrania + "</p>" +
-    "<p>W trakcie: " + wTrakcie + "</p>" +
-    "<p>Ukończone: " + ukonczone + "</p>";
+    "<div>Wszystkie gry: " + wszystkie + "</div>" +
+    "<div>Do ogrania: " + doOgrania + "</div>" +
+    "<div>W trakcie: " + wTrakcie + "</div>" +
+    "<div>Ukończone: " + ukonczone + "</div>";
 }
 
 

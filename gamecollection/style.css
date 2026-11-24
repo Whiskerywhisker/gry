@@ -1,6 +1,4 @@
-* {
-    border: 2px solid;
-}
+
 
 body {
     background-color: rgb(165, 135, 174);
@@ -33,11 +31,6 @@ button {
     margin: 5px;
 }
 
-div {
-    background-color: rgb(222, 206, 152);
-    color: rgb(112, 90, 61);
-}
-
 #collection button {
     background-color: rgb(132, 102, 142);
     border: solid 3px rgb(95, 74, 101);
@@ -50,8 +43,48 @@ div {
 #collection div {
     padding-left: 10px;
     font-size: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(222, 206, 152);
+    color: rgb(112, 90, 61);
+    display: flex;
+}
+
+#collection div div {
+    width: 50%;
 }
 
 .wysrodkoj {
     text-align: center;
+}
+
+#podsumowanie {
+    display: flex;
+}
+
+#podsumowanie div {
+    width: 25%;
+    background-color: rgb(222, 206, 152);
+    color: rgb(112, 90, 61);
+    border: solid 3px rgb(95, 74, 101);
+    margin: 5px;
+    height: 25px;
+}
+
+.wyszukiwanie {
+    height: 40px;
+    width: 200px;
+}
+
+#szukaj {
+    width: 400px;
+}
+
+#gameForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#gameForm * {
+    margin-bottom: 10px;
+    height: 25px;
 }
